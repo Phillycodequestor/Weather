@@ -18,7 +18,7 @@ if (navigator.geolocation) {
             "<small><a href='#' id='convert'>C</a></small>"
         );
         $("#conditions").html(json.weather[0].description);
-        $("#datadisplay").html("<img src='" + json.weather[0].icon + "'>");
+        $("#datadisplay").html("<img alt='weather icon' src='" + json.weather[0].icon + "'>");
       }
     );
   });

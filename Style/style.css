@@ -3,10 +3,15 @@ body{
   background: GhostWhite;
 }
 
+
+	
+
+
 #main{
   height: 700px;
   background: BurlyWood;
   padding-top: 30px;
+  color: white;
 }
 
 header.container {
